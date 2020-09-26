@@ -6,12 +6,20 @@ div {
 
 }
 
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
 
 h1 {
-  color: black;
+  color: white;
 }
 p {
   color: white;
+}
+
+li {
+    color: white;
 }
 
 
