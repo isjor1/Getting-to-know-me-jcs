@@ -3,35 +3,36 @@ div {
   width: 2000px;
   height: 2000px;
   background-color: rgb(15, 175, 228);
+  text-align: center;
 
 }
 
-ul {
-    text-align: center;
+
+ul, li {
     list-style-position: inside;
-}
-
-h1 {
-  color: white;
-}
-p {
-  color: white;
-}
-
-li {
+    list-style-type: square;
     color: white;
 }
 
+h1, h2, h3, h4, h5 {
+  color: white;
+  font-size:40px;
+}
+
+p {
+  color: white;
+  font-size:18px;
+}
 
 a:visited {
-  color: white;
+  color: lightgreen;
 }
 a:hover {
-  color: lightgreen;
+  color: darkblue;
 }
 
 a:active {
-  color: yellow;
+  color: red;
 }
 
 
